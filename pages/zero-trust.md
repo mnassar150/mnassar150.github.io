@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Zero Trust
 permalink: /pages/zero-trust/
 ---
