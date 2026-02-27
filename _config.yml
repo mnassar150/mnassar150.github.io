@@ -1,1 +1,19 @@
+title: "Identity in Depth"
+description: "IAM, Zero Trust, and Microsoft Security for regulated industries"
+author: Your Name
 
+nav_links:
+  - title: Home
+    url: /
+  - title: Identity & Access
+    url: /pages/identity-access/
+  - title: Zero Trust
+    url: /pages/zero-trust/
+  - title: Exchange
+    url: /pages/exchange/
+  - title: Automation
+    url: /pages/automation/
+  - title: Compliance
+    url: /pages/compliance/
+  - title: About
+    url: /about/
