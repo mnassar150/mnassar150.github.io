@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "DORA and BaFin BAIT: What They Actually Require from Your IAM Controls"
 date: 2024-10-01
 categories: compliance

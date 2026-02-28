@@ -1,21 +1,30 @@
 ---
 layout: default
-title: "zeroknown"
+title: "ZeroKnown"
 ---
 
-Notes on M365 security, Entra ID, and zero trust. I write about what I'm learning: identity, automation, compliance, hardening environments for regulated industries. The more I dig, the more there is to find.
+**Mustafa Nassar** — Senior M365 Administrator, 8+ years in the Microsoft ecosystem including 5 years at Microsoft Premier Support. Based in Germany, specialising in identity architecture, Zero Trust, and regulatory compliance for European financial institutions. [About →](/about/)
+
+---
+
+Notes on M365 security — what actually gets configured, not just what the frameworks say.
 
 ---
 
 ### Browse by Topic
 
-- [Identity & Access](/pages/identity-access/) — Entra ID, consent policies, conditional access, PIM, lifecycle management
-- [Zero Trust](/pages/zero-trust/) — Zero Trust architecture, DORA/BaFin mapping, implementation guides
-- [Exchange & Messaging](/pages/exchange/) — Exchange Online, mail flow, retention, migrations
-- [Automation](/pages/automation/) — PowerShell, Graph API, workflow automation
-- [Compliance](/pages/compliance/) — DORA, BaFin BAIT, audit readiness, governance
+| Topic | Focus |
+|-------|-------|
+| [**Identity & Access**](/pages/identity-access/) | Entra ID &middot; Conditional Access &middot; PIM &middot; Lifecycle management |
+| [**Zero Trust**](/pages/zero-trust/) | Architecture &middot; DORA/BaFin mapping &middot; Implementation guides |
+| [**Exchange & Messaging**](/pages/exchange/) | Exchange Online &middot; Mail flow &middot; Retention |
+| [**Automation**](/pages/automation/) | PowerShell &middot; Graph API &middot; Workflow automation |
+| [**Compliance**](/pages/compliance/) | DORA &middot; BaFin BAIT &middot; Audit readiness |
 
 ---
+
+### Posts
+
 {% for post in site.posts %}
 ### [{{ post.title }}]({{ post.url }})
 *{{ post.date | date: "%B %d, %Y" }}*
@@ -23,5 +32,4 @@ Notes on M365 security, Entra ID, and zero trust. I write about what I'm learnin
 {{ post.excerpt }}
 
 ---
-{% endif %}
 {% endfor %}
