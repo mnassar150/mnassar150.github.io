@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "M365 Security in Practice"
+title: "zeroknown"
 ---
 
-**M365 Security in Practice ** is a technical blog on Microsoft Entra ID, Zero Trust architecture, Exchange Online, and regulatory compliance for European financial institutions. Written by a practitioner for practitioners — every article maps theory to real, auditable configuration.
+Notes on M365 security, Entra ID, and zero trust. I write about what I'm learning: identity, automation, compliance, hardening environments for regulated industries. The more I dig, the more there is to find.
 
 ---
 
