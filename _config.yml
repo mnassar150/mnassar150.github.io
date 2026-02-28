@@ -2,7 +2,7 @@ title: M365 Notes
 description: IAM, Zero Trust, and Microsoft Security for regulated industries
 author: Mustafa Nassar
 url: "https://nassar-m.github.io"
-theme: jekyll-theme-slate
+theme: jekyll-theme-hacker
 show_excerpts: true
 plugins:
   - jekyll-feed
