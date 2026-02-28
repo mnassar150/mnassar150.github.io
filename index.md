@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Identity in Depth"
+title: "M365 Security in Practice"
 ---
 
-**Identity in Depth** is a technical blog on Microsoft Entra ID, Zero Trust architecture, Exchange Online, and regulatory compliance for European financial institutions. Written by a practitioner for practitioners — every article maps theory to real, auditable configuration.
+**M365 Security in Practice** is a technical blog on Microsoft Entra ID, Zero Trust architecture, Exchange Online, and regulatory compliance for European financial institutions. Written by a practitioner for practitioners — every article maps theory to real, auditable configuration.
 
 ---
 
