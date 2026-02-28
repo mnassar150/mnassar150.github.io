@@ -1,20 +1,21 @@
 ---
 layout: post
 title: "Entra ID Application Consent Policies: Controlling OAuth Permissions at Enterprise Scale"
-date: 2025-01-01
+date: 2025-07-06
 categories: identity-access
 tags: [entra-id, consent, oauth, app-governance, security]
-excerpt: "How to design and enforce application consent policies in Entra ID to prevent over-permissioned OAuth apps — covering admin consent workflows, permission classification, and app governance in enterprise environments."
+excerpt: "Someone in your org clicks "Accept" on an OAuth prompt. The app now has `Mail.Send` access for their account and nobody got an alert.
+That's the default behavior in most Entra tenants. Any user can consent to any app requesting low-privilege permissions, and it happens silently. Consent phishing attacks rely on exactly this: trick a user into approving a legitimate-looking OAuth app, get persistent access without ever touching a password."
 ---
 # Custom app consent policies in Microsoft Entra ID
 
 *July 6, 2025*
 
-Someone in your org clicks "Accept" on an OAuth prompt. The app now has `Mail.Send` access for their account — and nobody got an alert.
+Someone in your org clicks "Accept" on an OAuth prompt. The app now has `Mail.Send` access for their account and nobody got an alert.
 
 That's the default behavior in most Entra tenants. Any user can consent to any app requesting low-privilege permissions, and it happens silently. Consent phishing attacks rely on exactly this: trick a user into approving a legitimate-looking OAuth app, get persistent access without ever touching a password.
 
-The fix isn't disabling user consent entirely — that just creates a helpdesk bottleneck. The better option is scoped consent policies: you define exactly which users can approve consent, for which app, for which permissions. Everyone else gets blocked.
+The fix isn't disabling user consent entirely that just creates a helpdesk bottleneck. The better option is scoped consent policies: you define exactly which users can approve consent, for which app, for which permissions. Everyone else gets blocked.
 
 This guide walks through that setup end-to-end using PowerShell and Microsoft Graph. One heads-up: the steps aren't in the most intuitive order — you create the policy first, then scope it, then build the role, then assign it. Just follow the sequence and it'll make sense by the end.
 
