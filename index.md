@@ -16,3 +16,12 @@ Notes on M365 security, Entra ID, and zero trust. I write about what I'm learnin
 - [Compliance](/pages/compliance/) — DORA, BaFin BAIT, audit readiness, governance
 
 ---
+{% for post in site.posts %}
+### [{{ post.title }}]({{ post.url }})
+*{{ post.date | date: "%B %d, %Y" }}*
+
+{{ post.excerpt }}
+
+---
+{% endif %}
+{% endfor %}
